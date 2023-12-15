@@ -1,0 +1,66 @@
+.accordion {
+  margin: 20px;
+  width: 425px;
+}
+
+.accordion_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+  width: 400px;
+}
+
+.accordion_content {
+  padding: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+label {
+  color: grey;
+}
+
+.font_icon {
+  position: relative;
+  top: 20px;
+  right: 15px;
+}
+
+.row3 {
+  display: flex;
+  justify-content: right;
+}
+
+.del {
+  padding-right: 10px;
+}
+
+.del,
+.edit {
+  cursor: pointer;
+}
+
+.description_cand {
+  width: 400px;
+  height: 100px;
+}
+
+.inputAge {
+  width: 80px;
+}
+
+.countryInput {
+  width: 140px;
+}
+
+.descriptionDiv {
+  width: 350px;
+  height: 110px;
+}
